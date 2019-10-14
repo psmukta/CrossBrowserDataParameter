@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CrossBrowserSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="IETest(failed)">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="CrossBrowserData_ParameterPac.OpenBrowser_CrossBrowserDataParameter">
+        <methods>
+          <include name="facebookSignUp"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- CrossBrowserData_ParameterPac.OpenBrowser_CrossBrowserDataParameter -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+</suite> <!-- Failed suite [CrossBrowserSuite] -->
